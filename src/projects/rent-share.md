@@ -1,6 +1,6 @@
 ---
 title: RentShare
-stack: Java, Java Springboot, MySQL
+stack: Java, Spring Boot, MySQL
 slug: rent-share
 date: 2021-02-01T00:00:00+00:00
 thumb: ../images/thumbs/skate.png
