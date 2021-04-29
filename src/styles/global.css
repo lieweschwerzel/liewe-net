@@ -49,6 +49,7 @@ nav a:hover {
   border-color: white;
 }
 nav .navlogo {
+  border-bottom: 0px;
   font-family: "Dawning of a New Day";
   font-size: 2em;
 }
