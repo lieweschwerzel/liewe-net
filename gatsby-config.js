@@ -13,7 +13,7 @@ module.exports = {
     description: `Fullstack developer portfolio`,
     copyright: `This website is copyrighted 2021`,
     keywords: `Fullstack, Java developer, Javascript, React, Amsterdam`,
-    contact: `liewe@lieweschwerzel.net`
+    contact: `liewe@liewe.net`
   },
   plugins: [
     {
