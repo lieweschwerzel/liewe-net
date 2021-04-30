@@ -3,6 +3,7 @@ import { graphql, Link } from "gatsby"
 import Layout from "../../components/Layout"
 import * as styles from "../../styles/projects.module.css"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import Seo from "../../components/Seo.js"
 
 export default function Projects({ data }) {
   console.log(
@@ -13,6 +14,7 @@ export default function Projects({ data }) {
 
   return (
     <Layout>
+      <Seo title="Projects"/>
       <div className={styles.portfolio}>
         <h2>Portfolio</h2>
         <h3>Projects & Websites I've created</h3>

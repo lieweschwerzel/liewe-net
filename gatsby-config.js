@@ -9,11 +9,12 @@ module.exports = {
 
   plugins: [],
   siteMetadata: {
-    title: `Liewe`,
+    title: `Liewe.net`,
     description: `Fullstack developer portfolio`,
     copyright: `This website is copyrighted 2021`,
     keywords: `Fullstack, Java developer, Javascript, React, Amsterdam`,
-    contact: `liewe@liewe.net`
+    contact: `liewe@liewe.net`,
+    author: `@liewes`
   },
   plugins: [
     {

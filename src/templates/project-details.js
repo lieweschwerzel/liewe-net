@@ -3,14 +3,17 @@ import Layout from "../components/Layout"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import * as styles from "../styles/project-details.module.css"
 import { graphql } from "gatsby"
+import Seo from "../components/Seo.js"
 
 export default function ProjectDetails({ data }){
   const featuredImage = getImage(data.markdownRemark.frontmatter.featuredImg.childImageSharp.gatsbyImageData)
   const { html } = data.markdownRemark
   const { title, stack } = data.markdownRemark.frontmatter
   
+  
   return (
     <Layout>
+      <Seo title={title}/>
       <div className={styles.details}>
         <h2>{title}</h2>
         <h3>{stack}</h3>

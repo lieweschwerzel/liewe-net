@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import { header, btn } from "../styles/home.module.scss"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
+import Seo from "../components/Seo.js"
 
 export default function Home({ data }) {
    //get banner image from graphql query through data props
@@ -10,6 +11,7 @@ export default function Home({ data }) {
 
   return (
     <Layout>
+      <Seo title="Home"/>
       <section className={header}>
         <div>
           <h2>Design</h2>
