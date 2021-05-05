@@ -1,3 +1,9 @@
+section {  
+  border-radius: 5%;
+  background-color: rgba(0, 0, 0, 0.4); 
+
+}
+
 .header {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -38,7 +44,8 @@
 }
 .btn {
   display: inline-block;
-  background: #D42990;
+  border-color: #fff;
+  border: 2px solid white;
   padding: 10px 16px;
   border-radius: 10px;
   margin-top: 20px;

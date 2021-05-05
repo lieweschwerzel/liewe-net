@@ -1,0 +1,33 @@
+import React from "react"
+import { graphql, useStaticQuery } from "gatsby"
+import { getImage } from "gatsby-plugin-image"
+import { BgImage } from "gbimage-bridge"
+
+const GbiBridged = () => {
+  const { placeholderImage } = useStaticQuery(
+    graphql`
+      query {
+        placeholderImage: file(relativePath: { eq: "forest.jpg" }) {
+          childImageSharp {
+            gatsbyImageData(
+              width: 2000
+              placeholder: BLURRED
+              formats: [AUTO, WEBP, AVIF]
+            )
+          }
+        }
+      }
+    `
+  )
+
+
+
+  const pluginImage = getImage(placeholderImage)
+
+  return (
+    <BgImage image={pluginImage} className="masthead">
+        Test
+    </BgImage>
+  )
+}
+export default GbiBridged

@@ -4,13 +4,17 @@ import Layout from "../components/Layout"
 import { header, btn } from "../styles/home.module.scss"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import Seo from "../components/Seo.js"
+import { BgImage } from "gbimage-bridge"
 
 export default function Home({ data }) {
    //get banner image from graphql query through data props
-  const image = getImage(data.file)
+  const banner = getImage(data.banner)
+  const pluginImage = getImage(data.background)
 
-  return (
+  return ( 
+    <BgImage image={pluginImage} className="masthead">
     <Layout>
+         
       <Seo title="Home"/>
       <section className={header}>
         <div>
@@ -21,22 +25,26 @@ export default function Home({ data }) {
             My portfolio projects
           </Link>
         </div>
-        <GatsbyImage image={image} alt="Banner" />
+        {/* <GatsbyImage image={banner} alt="Banner" />  */}
+
       </section>
     </Layout>
+    </BgImage>
   )
 }
 
+
 export const query = graphql`
-  query Banner {
-    file(relativePath: { eq: "banner.png" }) {
-      childImageSharp {
-        gatsbyImageData(
-          layout: FULL_WIDTH
-          placeholder: BLURRED
-          formats: [AUTO, AVIF]
-        )
-      }
+query Images {
+  background: file(relativePath: {eq: "forest.jpg"}) {
+    childImageSharp {
+      gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, AVIF])
     }
   }
+  banner: file(relativePath: {eq: "banner.png"}) {
+    childImageSharp {
+      gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED, formats: [AUTO, WEBP])
+    }
+  }
+}
 `

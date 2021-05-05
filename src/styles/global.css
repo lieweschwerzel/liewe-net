@@ -9,15 +9,23 @@
   text-decoration: none;
   font-family: "Stylish";
   color: white;
+  background-color: rgba(0, 0, 0, 0.4); 
+
 }
 
 html, body {
   min-height: 100%;
+
 }
-body {
-  background: radial-gradient(at top left, rgb(7, 16, 100) 0%, rgb(120, 184, 247) 100%);
+body {  
   background-repeat: no-repeat;
 }
+.masthead{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+}
+
 p {
   margin: 16px auto;
   line-height: 1.5em;
@@ -49,6 +57,7 @@ nav a:hover {
   border-color: white;
 }
 nav .navlogo {
+
   border-bottom: 0px;
   font-family: "Dawning of a New Day";
   font-size: 2em;
@@ -64,3 +73,4 @@ iframe {
   display: block;
   margin: 40px auto;
 }
+
