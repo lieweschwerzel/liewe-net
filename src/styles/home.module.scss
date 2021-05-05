@@ -1,6 +1,6 @@
 section {  
   border-radius: 5%;
-  height: 50vh;
+  height: 75vh;
 }
 
 .header {
@@ -18,7 +18,7 @@ section {
   background-clip: text;
   color: transparent;
   animation: reveal 3000ms ease-in-out forwards 200ms,
-             glow 7000ms linear infinite 2000ms;
+             glow 2000ms linear infinite 2000ms;
 
   @keyframes reveal {
     80%{
@@ -36,9 +36,9 @@ section {
 }  
 
 .header h3 {
-  font-family: "Codystar";
+  font-family: "Oxanium";
   font-size: 3em;
-  font-weight: 400;
+  font-weight: 200;
   margin-bottom: 20px;
 }
 .btn {
