@@ -60,7 +60,8 @@
   position: relative;
   vertical-align: middle;
   color: rgb(255, 255, 255);
-  display: inline-block;
+  display: flex;
+  margin-bottom: 40px;
   height: 60px;
   line-height: 60px;
   text-align: center;

@@ -3,15 +3,18 @@ import Layout from "../components/Layout"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import * as styles from "../styles/project-details.module.css"
 import { graphql } from "gatsby"
+import { BgImage } from "gbimage-bridge"
 import Seo from "../components/Seo.js"
 
 export default function ProjectDetails({ data }){
   const featuredImage = getImage(data.markdownRemark.frontmatter.featuredImg.childImageSharp.gatsbyImageData)
   const { html } = data.markdownRemark
   const { title, stack } = data.markdownRemark.frontmatter
+  const pluginImage = getImage(data.background)
   
   
   return (
+    <BgImage image={pluginImage} className="masthead">
     <Layout>
       <Seo title={title}/>
       <div className={styles.details}>
@@ -23,6 +26,7 @@ export default function ProjectDetails({ data }){
         <div className={styles.html} dangerouslySetInnerHTML={{__html: html}} />
       </div>
     </Layout>
+    </BgImage>
   )
 }
 
@@ -42,6 +46,15 @@ export const query = graphql`
             )
           }
         }
+      }
+    }
+    background: file(relativePath: { eq: "lake.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(
+          layout: FULL_WIDTH
+          placeholder: DOMINANT_COLOR
+          formats: [AUTO, WEBP]          
+        )
       }
     }
   }

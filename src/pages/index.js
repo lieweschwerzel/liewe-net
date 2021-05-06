@@ -25,6 +25,9 @@ export default function Home({ data }) {
             <Link className={styles.btn} to="/projects">
               My portfolio projects
             </Link>
+             <Link className={styles.btn} to="/about">
+              More about me
+            </Link>
           </div>
           {/* <GatsbyImage image={banner} alt="Banner" />  */}
         </section>
@@ -39,9 +42,8 @@ export const query = graphql`
       childImageSharp {
         gatsbyImageData(
           layout: FULL_WIDTH
-          placeholder: BLURRED
-          formats: [AUTO, WEBP]
-          height: 1
+          placeholder: DOMINANT_COLOR
+          formats: [AUTO, WEBP]          
         )
       }
     }
@@ -50,8 +52,7 @@ export const query = graphql`
         gatsbyImageData(
           layout: FULL_WIDTH
           placeholder: BLURRED
-          formats: [AUTO, WEBP]
-          height: 1
+          formats: [AUTO, WEBP]          
         )
       }
     }
