@@ -1,10 +1,7 @@
 import React from "react"
 import Navbar from "./Navbar"
 import "../styles/global.css"
-import { getImage, GatsbyImage } from "gatsby-plugin-image"
-import { graphql } from "gatsby"
-import BackgroundImage from "gatsby-background-image"
-import { convertToBgImage } from "gbimage-bridge"
+
 
 export default function Layout({ children }) {
     return (

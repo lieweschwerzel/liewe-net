@@ -15,7 +15,7 @@ body {
   min-height: 100%;
 }
 body {
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
 }
 .masthead {
   width: 100%;
@@ -25,9 +25,9 @@ body {
   background-size: cover;
   background: linear-gradient(
     90.26deg,
-    rgba(10, 10, 10, 0.9) 17.75%,
+    rgba(10, 10, 10, 0.8) 7.75%,
     rgba(66, 48, 20, 0.61) 99.89%
-  );
+  )
 }
 
 p {
@@ -37,7 +37,7 @@ p {
 
 /* layout & nav */
 .layout {
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
 }
 nav {
@@ -46,7 +46,7 @@ nav {
   margin: 40px auto;
 }
 nav .links {
-  font-size: 1.5em;
+  font-size: 1.2em;
   display: inline-block;
   text-align: right;
 }
@@ -63,11 +63,15 @@ nav a:hover {
 nav .navlogo {
   border-bottom: 0px;
   font-family: "Dawning of a New Day";
-  font-size: 2em;
+  font-size: 1.2em;
 }
 
 footer p {
-  height: 10vh;
+  /* height: 10vh; */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   text-align: center;
   color: #bbb;
   margin: 40px auto;

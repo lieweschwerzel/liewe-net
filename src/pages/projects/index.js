@@ -4,6 +4,7 @@ import Layout from "../../components/Layout"
 import * as styles from "../../styles/projects.module.css"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import Seo from "../../components/Seo.js"
+import { BgImage } from "gbimage-bridge"
 
 export default function Projects({ data }) {
   console.log(
@@ -11,8 +12,11 @@ export default function Projects({ data }) {
  )
   const projects = data.projects.nodes
   const contact = data.contact.siteMetadata.contact
+  const pluginImage = getImage(data.background)
+
 
   return (
+    <BgImage image={pluginImage} className="masthead">
     <Layout>
       <Seo title="Projects"/>
       <div className={styles.portfolio}>
@@ -37,6 +41,7 @@ export default function Projects({ data }) {
         <p>Like what you see? Email me at {contact}</p>
       </div>
     </Layout>
+     </BgImage>
   )
 }
 // export page query
@@ -68,5 +73,15 @@ export const query = graphql`
         contact
       }
     }
+    background: file(relativePath: { eq: "mountain.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(
+          layout: FULL_WIDTH
+          placeholder: BLURRED
+          formats: [AUTO, WEBP]          
+        )
+      }
+    }
   }
 `
+
