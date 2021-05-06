@@ -3,8 +3,8 @@ title: Tupper Meals Reminder
 stack: Java & Firebase 
 slug: tupper-meals-reminder
 date: 2021-01-01T00:00:00+00:00
-thumb: ../images/thumbs/coffee.png
-featuredImg: ../images/featured/coffee-banner.png
+thumb: ../images/thumbs/food.png
+featuredImg: ../images/featured/food-banner.png
 ---
 
 Android Reminder app for leftover "Tupper Meals" in your fridge and/or freezer to conveniently track expiry dates of the meals.

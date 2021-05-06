@@ -1,23 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap&effect=shadow-multiple|3d-float');
-@import url('https://fonts.googleapis.com/css2?family=Codystar&family=Dawning+of+a+New+Day&family=Stylish&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap&effect=shadow-multiple|3d-float");
+@import url("https://fonts.googleapis.com/css2?family=Codystar&family=Dawning+of+a+New+Day&family=Stylish&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200;400;500&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-family: "Stylish";
+  font-family: "Oxanium";
   color: white;
 }
 
-html, body {
+html,
+body {
   min-height: 100%;
 }
 body {
-  background: radial-gradient(at top left, rgb(7, 16, 100) 0%, rgb(120, 184, 247) 100%);
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
 }
+.masthead {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  opacity: 1 !important;
+  background-size: cover;
+  background: linear-gradient(
+    90.26deg,
+    rgba(10, 10, 10, 0.8) 7.75%,
+    rgba(66, 48, 20, 0.61) 99.89%
+  )
+}
+
 p {
   margin: 16px auto;
   line-height: 1.5em;
@@ -25,7 +37,7 @@ p {
 
 /* layout & nav */
 .layout {
-  max-width: 1200px;
+  width: 1200px;
   margin: 0 auto;
 }
 nav {
@@ -34,7 +46,7 @@ nav {
   margin: 40px auto;
 }
 nav .links {
-  font-size: 1.5em;
+  font-size: 1.2em;
   display: inline-block;
   text-align: right;
 }
@@ -51,10 +63,15 @@ nav a:hover {
 nav .navlogo {
   border-bottom: 0px;
   font-family: "Dawning of a New Day";
-  font-size: 2em;
+  font-size: 1.2em;
 }
 
-footer p{
+footer p {
+  /* height: 10vh; */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   text-align: center;
   color: #bbb;
   margin: 40px auto;
