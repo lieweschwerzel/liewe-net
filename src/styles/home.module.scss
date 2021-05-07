@@ -61,14 +61,15 @@
 
 .btn {
   font-weight: 500;
+  font-size: 1.5em;
   position: relative;
   color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
   margin-top: 40px;
-  height: 70px;
-  line-height: 70px;
+  height: 60px;
+  line-height: 60px;
   align-content: center;
   text-align: center;
   transition: 0.5s;
@@ -136,6 +137,7 @@
   }
 
   .btn{
+    font-size: 1.2em;
     margin-bottom: 20px;
     margin-top: 20px;
     height: 50px;
@@ -146,4 +148,6 @@
   nav {
     display: none;
   }
+
+  
 }
