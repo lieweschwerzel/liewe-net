@@ -5,7 +5,7 @@
   grid-gap: 180px;
   align-items: center;
   justify-content: center;
-  padding-bottom: 2.5rem;   
+  padding-bottom: 2.5rem;
 }
 .header h2 {
   font-family: "Dawning of a New Day";
@@ -106,13 +106,32 @@
   -webkit-transform: scale(1);
 }
 
-@media all and (max-width: 800px){
+@media all and (max-width: 800px) {
   .header {
+    height: 100vh;
     display: grid;
-    grid-template-columns: 1fr;
-    
-    grid-gap: 50px;
-    margin: 80px 20px;
     justify-content: center;
-  }  
+    width: 100%;
+    grid-gap: 50px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+    /* this is the same as grid-template-columns: 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(1, 1fr);
+    /* this is the same as grid-template-rows: 300px 300px; */
+    grid-template-rows: repeat(2, 200px);
+  }
+
+  .btn{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 50px;
+    line-height: 50px;
+    width: 200px;
+  }
+
+  nav {
+    display: none;
+  }
 }
