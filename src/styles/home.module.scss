@@ -52,6 +52,13 @@
 // }
 
 //button animation hover
+.left{
+  
+}
+.right{
+ 
+  }
+
 .btn {
   font-weight: 500;
   position: relative;
@@ -121,6 +128,11 @@
     grid-template-columns: repeat(1, 1fr);
     /* this is the same as grid-template-rows: 300px 300px; */
     grid-template-rows: repeat(2, 200px);
+  }
+
+  .right{
+    display: grid;
+    justify-content: center;
   }
 
   .btn{
