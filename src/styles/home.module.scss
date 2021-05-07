@@ -5,11 +5,12 @@
   grid-gap: 180px;
   align-items: center;
   justify-content: center;
-
+  padding-bottom: 2.5rem;   
 }
 .header h2 {
   font-family: "Dawning of a New Day";
   font-size: 5em;
+  //animation:
   background: 50% 100% / 50% 50% no-repeat
     radial-gradient(ellipse at bottom, #fff, transparent, transparent);
   -webkit-background-clip: text;
@@ -39,12 +40,7 @@
   font-weight: 200;
   margin-bottom: 20px;
 }
-.left {
- 
-}
-.right {
- 
-}
+
 // .btn {
 //   display: inline-block;
 //   border-color: #fff;
@@ -59,18 +55,18 @@
 .btn {
   font-weight: 500;
   position: relative;
-  vertical-align: middle;
   color: rgb(255, 255, 255);
   display: flex;
+  justify-content: center;
   margin-bottom: 40px;
   margin-top: 40px;
-  height: 60px;
-  line-height: 60px;
+  height: 70px;
+  line-height: 70px;
+  align-content: center;
   text-align: center;
   transition: 0.5s;
   padding: 0 20px;
-  cursor: pointer;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1.5px solid rgb(255, 255, 255);
   -webkit-transition: 0.5s;
 }
 

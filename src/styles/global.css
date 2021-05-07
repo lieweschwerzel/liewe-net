@@ -27,7 +27,7 @@ body {
   background-size: cover;
   background: linear-gradient(
     90.26deg,
-    rgba(10, 10, 10, 0.9) 7.75%,
+    rgba(10, 10, 10, 0.98) .75%,
     rgba(66, 48, 20, 0.51) 99.89%
   )
 }
@@ -41,6 +41,7 @@ p {
 .layout {
   width: 1200px;
   margin: 0 auto;
+  padding-bottom: 2.5rem;   
 }
 nav {
   display: grid;
@@ -70,13 +71,12 @@ nav .navlogo {
 
 footer p {
   /* height: 10vh; */
-  position: fixed;
+  position:absolute;
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
   color: #bbb;
-  margin: 40px auto;
 }
 
 iframe {

@@ -27,7 +27,7 @@ export default function Home({ data }) {
             </Link>
              <Link className={styles.btn} to="/about">
               More about me
-            </Link>
+              </Link>
           </div>
           {/* <GatsbyImage image={banner} alt="Banner" />  */}
         </section>

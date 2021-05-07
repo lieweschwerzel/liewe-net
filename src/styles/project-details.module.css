@@ -1,3 +1,7 @@
+.details{
+    background-color: white;
+    color: black;
+}
 .details h2 {
     font-size: 3.5em;
     margin-top: 80px;
@@ -7,6 +11,10 @@
     font-size: 2em;
     font-weight: 400;
     margin-bottom: 40px;    
+}
+
+.details p, .details li, .details  h1,.details h2,.details h3, .details h4, html {
+    color: black;
 }
 
 .html {
