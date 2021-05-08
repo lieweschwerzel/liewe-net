@@ -1,26 +1,23 @@
 import React from "react"
+import Layout from "../components/Layout"
+
 import * as styles from "../styles/contact.module.css"
 
-export default function contact() {
-  return (
-    <div>
-      <form name="contact" method="POST" data-netlify="true" onSubmit="submit">
-        <p>
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" />
-        </p>
-        <p>
-          <label for="email">Email</label>
-          <input type="text" id="email" name="email" />
-        </p>
-        <p>
-          <label for="message">Message</label>
-          <textarea id="message" name="message"></textarea>
-        </p>
-        <p>
-          <button type="submit">Send</button>
-        </p>
+const Contact = () => (
+    <Layout>
+      <h1>Contact</h1>
+  
+      <form name="Contact Form" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="Contact Form" />
+        <div>
+          <label>Your Email:</label>
+          <input type="email" name="email" />
+        </div>
+        <div>
+          <label>Message:</label>
+          <textarea name="message" />
+        </div>
+        <button type="submit">Send</button>
       </form>
-    </div>
+    </Layout>
   )
-}
