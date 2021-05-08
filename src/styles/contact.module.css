@@ -1,9 +1,13 @@
 body {
   font-family: sans-serif;
-  color: black;
+  background-color: black;
 }
 label {
   display: block;
   margin-bottom: 0.2em;
+}
+
+button{
+  color: black
 }
 

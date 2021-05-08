@@ -9,9 +9,15 @@ export default function contact() {
         method="POST"
         data-netlify="true"
         onSubmit="submit"
+       // action="/success/"
+       data-netlify-honeypot="bot-field"
       >
         <input type="hidden" name="form-name" value="contact v1"/ 
         >
+
+          <div hidden>
+            <input type="bot-field" />
+          </div>
 
           <div>
             <label>First Name <br/>
