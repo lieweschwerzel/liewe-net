@@ -1,6 +1,5 @@
 import React from 'react'
 import { graphql } from "gatsby"
-
 import Layout from '../components/Layout'
 import Seo from "../components/Seo.js"
 import { BgImage } from "gbimage-bridge"
