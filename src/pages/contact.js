@@ -1,52 +1,82 @@
 import React from "react"
+import { graphql } from "gatsby"
 import Layout from "../components/Layout"
+import Seo from "../components/Seo.js"
+import { BgImage } from "gbimage-bridge"
+import { getImage } from "gatsby-plugin-image"
 
-import * as styles from "../styles/contact.module.css"
 
-export default function contact() {
+export default function contact({ data }) {
+  const pluginImage = getImage(data.background)
+
   return (
-    <Layout>
-      <div>
-        <form
-          name="contact v1"
-          method="POST"
-          data-netlify="true"
-          onSubmit="submit"
-          // action="/success/"
-          data-netlify-honeypot="bot-field"
-        >
-          <input type="hidden" name="form-name" value="contact v1" />
+    <BgImage image={pluginImage} className="masthead">
+      <Layout>
+        <div>
+          <form
+            name="contact v1"
+            method="POST"
+            data-netlify="true"
+            onSubmit="submit"
+            // action="/success/"
+            data-netlify-honeypot="bot-field"
+          >
+            <input type="hidden" name="form-name" value="contact v1" />
 
-          <div hidden>
-            <input type="bot-field" />
-          </div>
+            <div hidden>
+              <input type="bot-field" />
+            </div>
 
-          <div>
-            <label>
-              First Name <br />
-              <input type="text" name="first-name" />
-            </label>
-          </div>
+            <div>
+              <label>
+                First Name <br />
+                <input type="text" name="first-name" />
+              </label>
+            </div>
 
-          <div>
-            <label htmlFor="email">
-              <br />
-              Email
-            </label>
-            <input id="email" type="email" name="email" />
-          </div>
+            <div>
+              <label htmlFor="email">
+                <br />
+                Email <br/>
+              </label>
+              <input id="email" type="email" name="email" />
+            </div>
 
-          <div>
-            <label>
-              <br />
-              Message <br />
-              <textarea name="comments" cols="60" rows="10"></textarea>
-            </label>
-          </div>
-          <br />
-          <button type="submit">Submit</button>
-        </form>
-      </div>
-    </Layout>
+            <div>
+              <label>
+                <br />
+                Message <br />
+                <textarea name="comments" cols="60" rows="10"></textarea>
+              </label>
+            </div>
+            <br />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </Layout>
+    </BgImage>
   )
 }
+
+export const query = graphql`
+  query ContactBackground {
+    background: file(relativePath: { eq: "about.jpg" }) {
+      childImageSharp {
+        gatsbyImageData(
+          layout: FULL_WIDTH
+          placeholder: NONE
+          formats: [AUTO, WEBP]          
+        )
+      }
+    }
+    banner: file(relativePath: { eq: "banner.png" }) {
+      childImageSharp {
+        gatsbyImageData(
+          layout: FULL_WIDTH
+          placeholder: BLURRED
+          formats: [AUTO, WEBP]        
+        )
+      }
+    }
+  }
+`
