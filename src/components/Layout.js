@@ -1,13 +1,8 @@
 import React from "react"
 import Navbar from "./Navbar"
 import "../styles/global.css"
-import { Helmet } from "react-helmet"
-import favicon from "../images/favicon.png"
 
 export default function Layout({ children }) {
-  <Helmet>
-    <link rel="icon" href={favicon} />
-  </Helmet>
   return (
     <div className="layout">
       <Navbar />
