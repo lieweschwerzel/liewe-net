@@ -2,7 +2,7 @@ import React from "react"
 import Navbar from "./Navbar"
 import "../styles/global.css"
 import { Helmet } from "react-helmet"
-import favicon from "../images/favicon.ico"
+import favicon from "../images/favicon.png"
 
 export default function Layout({ children }) {
   <Helmet>
