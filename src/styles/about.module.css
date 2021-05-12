@@ -13,7 +13,6 @@ header {
 }
 
 main {
-    min-height: max-content;
     grid-area: main;
 }
 
