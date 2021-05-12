@@ -1,2 +1,2 @@
 # Redirect default Netlify subdomain to primary domain
-https://liewe.netlify.com/* https://www.liewe.net/ 
+https://liewe.netlify.com/* https://www.liewe.net/:splat 301!
