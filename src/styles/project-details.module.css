@@ -4,7 +4,7 @@
 }
 .details h2 {
     font-size: 3.5em;
-    margin-top: 80px;
+    margin-top: 20px;
     margin-left: 20px;
 }
 
@@ -17,7 +17,7 @@
 
 }
 
-a {
+.details a {
     color: rgb(65, 7, 7);
 }
 .details p, .details li, .details  h1,.details h2,.details h3, .details h4, html {
