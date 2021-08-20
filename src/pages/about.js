@@ -17,7 +17,7 @@ export default function Home({ data })  {
             <div className={styles.test}>  
               <header>HEADER</header>     
               <main>About Me .... </main>
-              <aside>SKILLS</aside>
+              <aside><p>SKILLS</p></aside>
               </div>                 
                 {/* <div>
                     <h1>About page</h1>

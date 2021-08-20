@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout"
+import * as styles from "../styles/contact.module.css"
 import Seo from "../components/Seo.js"
 import { BgImage } from "gbimage-bridge"
 import { getImage } from "gatsby-plugin-image"
@@ -12,7 +13,7 @@ export default function contact({ data }) {
   return (
     <BgImage image={pluginImage} className="masthead">
       <Layout>
-        <div>
+        <div className={styles.contact}>
           <form
             name="contact v1"
             method="POST"
@@ -29,7 +30,7 @@ export default function contact({ data }) {
 
             <div>
               <label>
-                First Name <br />
+                Full Name <br />
                 <input type="text" name="first-name" />
               </label>
             </div>
