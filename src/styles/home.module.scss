@@ -41,24 +41,6 @@
   margin-bottom: 20px;
 }
 
-// .btn {
-//   display: inline-block;
-//   border-color: #fff;
-//   border: 2px solid white;
-//   padding: 10px 16px;
-//   border-radius: 10px;
-//   margin-top: 20px;
-//   font-weight: 500;
-// }
-
-//button animation hover
-.left{
-  
-}
-.right{
- 
-  }
-
 .btn {
   font-weight: 500;
   font-size: 1.5em;
@@ -76,6 +58,11 @@
   padding: 0 20px;
   border: 1.5px solid rgb(255, 255, 255);
   -webkit-transition: 0.5s;
+  background: linear-gradient(
+    90.26deg,
+    rgba(10, 10, 10, 0.98) .75%,
+    rgba(66, 48, 20, 0.51) 99.89%
+  )
 }
 
 .btn:hover {

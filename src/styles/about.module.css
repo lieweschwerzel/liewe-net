@@ -1,5 +1,8 @@
 .test{
-    background-color: black;
+    background-color: white;
+    border-style: double;
+    border-width: thick;
+    border-color: darkslategrey;
     margin: 0;
     display: grid;
     grid-template-columns: 50% auto;
@@ -8,14 +11,22 @@
 }
 
 header {
+    border-top: brown;
+    color: black;
     grid-area: header;
     text-align: center;
 }
 
 main {
+    color: black;
     grid-area: main;
 }
 
 aside{
     grid: sidebar;
+}
+
+aside p {
+    color: black;
+    padding-left: 5px;
 }

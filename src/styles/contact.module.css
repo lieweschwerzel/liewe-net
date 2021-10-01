@@ -1,13 +1,17 @@
-body {
-  font-family: sans-serif;
-  background-color: black;
+.contact input, .contact textarea{
+  margin: 2px 2px;
+  color: black;
 }
+
+.contact button {
+  padding: 3px 4px;  
+  font-size: 1em;
+  background-color: white ;
+  color: black;
+}
+
 label {
   display: block;
   margin-bottom: 0.2em;
-}
-
-button{
-  color: black
 }
 
