@@ -67,6 +67,7 @@ nav .navlogo {
 }
 
 footer p {
+  font-size: 0.8em;
   /* height: 10vh; */
   position:absolute;
   left: 0;
@@ -76,7 +77,4 @@ footer p {
   color: #bbb;
 }
 
-iframe {
-  display: block;
-  margin: 40px auto;
-}
+
