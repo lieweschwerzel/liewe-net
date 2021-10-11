@@ -73,7 +73,7 @@ export const query = graphql`
         contact
       }
     }
-    background: file(relativePath: { eq: "mountain.jpg" }) {
+    background: file(relativePath: { eq: "portfolio.jpg" }) {
       childImageSharp {
         gatsbyImageData(
           layout: FULL_WIDTH

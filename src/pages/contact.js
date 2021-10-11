@@ -61,7 +61,7 @@ export default function contact({ data }) {
 
 export const query = graphql`
   query ContactBackground {
-    background: file(relativePath: { eq: "lake.jpg" }) {
+    background: file(relativePath: { eq: "contact.jpg" }) {
       childImageSharp {
         gatsbyImageData(
           layout: FULL_WIDTH

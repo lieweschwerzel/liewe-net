@@ -16,12 +16,7 @@ export default function Home({ data }) {
       <Layout>
         <Seo title="Home" />
         <section className={styles.header}>
-        <div className={styles.left}>
-            <h2>Design</h2>
-            <h3>Develop & Deploy</h3>
-            <p> Fullstack Software Developer based in Amsterdam</p>
-          </div>
-          <div className={styles.right}>
+        <div className={styles.right}>
             <Link className={styles.btn} to="/projects">
               My portfolio projects
             </Link>
@@ -29,6 +24,12 @@ export default function Home({ data }) {
               More about me
               </Link>
           </div>
+        <div className={styles.left}>
+            <h2>Design</h2>
+            <h3>Develop & Deploy</h3>
+            <p> Fullstack Software Developer based in Amsterdam</p>
+          </div>
+          
           {/* <GatsbyImage image={banner} alt="Banner" />  */}
         </section>
       </Layout>
@@ -38,7 +39,7 @@ export default function Home({ data }) {
 
 export const query = graphql`
   query Images {
-    background: file(relativePath: { eq: "beach2.jpg" }) {
+    background: file(relativePath: { eq: "home.jpg" }) {
       childImageSharp {
         gatsbyImageData(
           layout: FULL_WIDTH
