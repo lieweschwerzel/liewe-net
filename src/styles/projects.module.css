@@ -1,4 +1,11 @@
 .portfolio {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.08) .01%,
+    rgba(114, 114, 114, 0.15) 0.89%
+  );
+  height: 80vh;  
+  padding: 30px 20px;
   text-align: center;
 }
 .portfolio > h2 {

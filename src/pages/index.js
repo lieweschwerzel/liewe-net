@@ -38,7 +38,7 @@ export default function Home({ data }) {
 
 export const query = graphql`
   query Images {
-    background: file(relativePath: { eq: "forest.jpg" }) {
+    background: file(relativePath: { eq: "beach2.jpg" }) {
       childImageSharp {
         gatsbyImageData(
           layout: FULL_WIDTH

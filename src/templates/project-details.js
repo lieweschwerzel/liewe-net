@@ -18,7 +18,11 @@ export default function ProjectDetails({ data }){
     <Layout>
       <Seo title={title}/>
       <div className={styles.details}>
-        <h2>{title}</h2>
+        <div className={styles.top}>
+          <div className={styles.close}></div>
+          <h2>{title}</h2>
+        </div>
+        
         <h3>{stack}</h3>
         <div className={styles.featured}>
           <GatsbyImage image={featuredImage} alt="Banner" />

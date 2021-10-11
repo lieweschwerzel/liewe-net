@@ -1,32 +1,30 @@
 .test{
-    background-color: white;
-    border-style: double;
-    border-width: thick;
-    border-color: darkslategrey;
+    background: linear-gradient(
+        180.26deg,
+        rgba(255, 255, 255, 0.08) .01%,
+        rgba(26, 25, 24, 0.71) 20.89%
+      );
+    height: 80vh;    
     margin: 0;
+    padding: 30px 20px;
     display: grid;
     grid-template-columns: 50% auto;
     grid-template-rows: 160px auto;
     grid-template-areas: "header header" "main sidebar";
 }
 
-header {
-    border-top: brown;
-    color: black;
+header {    
+    font-size: 3em;
     grid-area: header;
     text-align: center;
 }
 
 main {
-    color: black;
     grid-area: main;
 }
 
 aside{
     grid: sidebar;
+    text-align: center;
 }
 
-aside p {
-    color: black;
-    padding-left: 5px;
-}

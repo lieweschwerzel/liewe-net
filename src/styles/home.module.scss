@@ -6,6 +6,8 @@
   align-items: center;
   justify-content: center;
   padding-bottom: 2.5rem;
+  margin: 10px;
+  color: #fff;
 }
 .header h2 {
   font-family: "Dawning of a New Day";
@@ -42,8 +44,8 @@
 }
 
 .btn {
-  font-weight: 500;
-  font-size: 1.5em;
+  font-weight: 400;
+  font-size: 1.4em;
   position: relative;
   color: rgb(255, 255, 255);
   display: flex;
@@ -56,13 +58,10 @@
   text-align: center;
   transition: 0.5s;
   padding: 0 20px;
-  border: 1.5px solid rgb(255, 255, 255);
-  -webkit-transition: 0.5s;
-  background: linear-gradient(
-    90.26deg,
-    rgba(10, 10, 10, 0.98) .75%,
-    rgba(66, 48, 20, 0.51) 99.89%
-  )
+  -webkit-transition: 0.2s;
+  background: rgba(26, 26, 26, 0.55);
+  box-shadow: 0px 0px 3px 1px rgba(26, 26, 26, 0.51);
+    
 }
 
 .btn:hover {
@@ -81,7 +80,7 @@
   left: 0;
   box-sizing: border-box;
   -webkit-transform: scale(0);
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 .btn::before {
@@ -131,10 +130,5 @@
     line-height: 50px;
     width: 200px;
   }
-
-  nav {
-    display: none;
-  }
-
-  
+    
 }

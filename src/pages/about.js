@@ -8,16 +8,15 @@ import { getImage } from "gatsby-plugin-image"
 
 
 export default function Home({ data })  {
-    const pluginImage = getImage(data.background)
-
-    return (
-        <BgImage image={pluginImage} className="masthead">
+  const pluginImage = getImage(data.background)
+    return (    
+    <BgImage image={pluginImage} className="masthead">
         <Layout>
             <Seo title="About"/> 
             <div className={styles.test}>  
-              <header>HEADER</header>     
-              <main>About Me .... </main>
-              <aside><p>SKILLS</p></aside>
+              <header>About Me </header>     
+              <main><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem odio ex adipisci iusto illum est ad nihil, voluptas ab maiores tempore modi eum. Ipsa ullam molestias debitis perferendis quae commodi!</p></main>
+              <aside>SKILLS</aside>
               </div>                 
                 {/* <div>
                     <h1>About page</h1>
@@ -27,6 +26,8 @@ export default function Home({ data })  {
         </Layout>
         </BgImage>
     );
+   
+
 }
 
 

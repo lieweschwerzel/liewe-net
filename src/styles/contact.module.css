@@ -1,13 +1,28 @@
+.contact {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.08) .01%,
+    rgba(114, 114, 114, 0.15) 0.89%
+
+  );
+  height: 80vh;  
+  padding: 30px 20px;
+}
+
 .contact input, .contact textarea{
-  margin: 2px 2px;
+  padding-left: 6px;
+  padding-top: 3px;
+  margin: 3px 0px;
   color: black;
+  font-size: 1em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .contact button {
   padding: 3px 4px;  
   font-size: 1em;
-  background-color: white ;
-  color: black;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.08) ;
 }
 
 label {
