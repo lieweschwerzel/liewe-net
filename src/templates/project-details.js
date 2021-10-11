@@ -18,8 +18,7 @@ export default function ProjectDetails({ data }){
     <Layout>
       <Seo title={title}/>
       <div className={styles.details}>
-        <div className={styles.top}>
-          <div className={styles.close}></div>
+        <div>          
           <h2>{title}</h2>
         </div>
         
