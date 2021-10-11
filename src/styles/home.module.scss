@@ -7,17 +7,13 @@
   justify-content: center;
   padding-bottom: 3.8rem;
   color: #fff;
-  background: linear-gradient(
-    180.26deg,
-    rgba(0, 0, 0, 0.08) .01%,
-    rgba(8, 5, 2, 0.41) 99.89%
-  );
+  background: rgba(8, 5, 2, 0.11);
 box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.1);
 height: 80vh;  
 }
 .header h2 {
   font-family: "Dawning of a New Day";
-  font-size: 5em;
+  font-size: 6em;
   //animation:
   background: 50% 100% / 50% 50% no-repeat
     radial-gradient(ellipse at bottom, #fff, transparent, transparent);
@@ -67,7 +63,7 @@ height: 80vh;
   -webkit-transition: 0.2s;
   background: rgba(26, 26, 26, 0.65);
   border-color: white;
-  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.55);
     
 }
 
@@ -91,14 +87,14 @@ height: 80vh;
 }
 
 .btn::before {
-  border-bottom: 3px solid #fff;
-  border-left: 3px solid #fff;
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
   -webkit-transform-origin: 0 100%;
 }
 
 .btn::after {
-  border-top: 3px solid #fff;
-  border-right: 3px solid #fff;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
   -webkit-transform-origin: 100% 0%;
 }
 
