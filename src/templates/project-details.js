@@ -14,7 +14,7 @@ export default function ProjectDetails({ data }){
   
   
   return (
-    <BgImage image={pluginImage} className="masthead">
+    <BgImage image={pluginImage} className={styles.detailsmasthead}>
     <Layout>
       <Seo title={title}/>
       <div className={styles.details}>
@@ -51,7 +51,7 @@ export const query = graphql`
         }
       }
     }
-    background: file(relativePath: { eq: "home.jpg" }) {
+    background: file(relativePath: { eq: "clouds.jpg" }) {
       childImageSharp {
         gatsbyImageData(
           layout: FULL_WIDTH
