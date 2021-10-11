@@ -52,7 +52,7 @@ export const query = graphql`
         }
       }
     }
-    background: file(relativePath: { eq: "lake.jpg" }) {
+    background: file(relativePath: { eq: "home.jpg" }) {
       childImageSharp {
         gatsbyImageData(
           layout: FULL_WIDTH
