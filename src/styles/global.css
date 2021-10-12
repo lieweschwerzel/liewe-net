@@ -21,7 +21,7 @@ body {
   height: 100vh;
   max-height: 100%;
   display: flex;
-  opacity: 1 !important;
+ /*  opacity: 1 !important; */
   background-size: cover;
   background: linear-gradient(
     180deg,
