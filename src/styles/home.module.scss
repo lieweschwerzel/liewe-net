@@ -43,6 +43,11 @@ height: 80vh;
   font-size: 3em;
   font-weight: 200;
   margin-bottom: 20px;
+  text-shadow: 7px 7px 10px rgb(0, 0, 0), 10px 1px 10px rgb(0, 0, 0);
+}
+
+.header p {  
+  text-shadow: 2px 7px 10px rgb(0, 0, 0), 1px 1px 10px rgb(0, 0, 0);
 }
 
 .btn {
@@ -63,6 +68,8 @@ height: 80vh;
   -webkit-transition: 0.2s;
   background: rgba(26, 26, 26, 0.65);
   border-color: white;
+  border-style: solid;
+  border-width: thin;
   box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.55);
     
 }
@@ -118,6 +125,7 @@ height: 80vh;
     grid-template-columns: repeat(1, 1fr);
     /* this is the same as grid-template-rows: 300px 300px; */
     grid-template-rows: repeat(2, 200px);
+    padding-bottom: 0rem;
   }
 
   .right {
@@ -137,5 +145,8 @@ height: 80vh;
     line-height: 50px;
     width: 200px;
   }
-    
+  .masthead {
+  height: 100%;
+
+}
 }
