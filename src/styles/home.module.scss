@@ -7,8 +7,7 @@
   justify-content: center;
   padding-bottom: 3.8rem;
   color: #fff;
-  background: rgba(8, 5, 2, 0.11);
-  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.1);
+  
 }
 .header h2 {
   font-family: "Dawning of a New Day";
@@ -110,7 +109,7 @@
 
 @media all and (max-width: 800px) {
   .header {
-    height: 100vh;
+    height: 100%;
     display: grid;
     justify-content: center;
     width: 100%;
