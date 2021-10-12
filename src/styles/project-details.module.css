@@ -4,8 +4,8 @@
         rgba(255, 255, 255, 0.08) .01%,
         rgba(255, 255, 255, 0.71) 19.89%
       );
-    box-shadow: 0px 0px 3px 2px rgba(255, 255, 255, 0.2);
-    height: 100vh;    
+    box-shadow: 0px 2px 3px 2px rgba(255, 255, 255, 0.2);
+    height: 100%;    
     color: black;
 }
 .details h2 {
