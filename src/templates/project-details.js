@@ -10,11 +10,11 @@ export default function ProjectDetails({ data }){
   const featuredImage = getImage(data.markdownRemark.frontmatter.featuredImg.childImageSharp.gatsbyImageData)
   const { html } = data.markdownRemark
   const { title, stack } = data.markdownRemark.frontmatter
-  const pluginImage = getImage(data.background)
-  
+  const bgImage = getImage(data.background)
+    
   
   return (
-    <BgImage image={pluginImage} className={styles.detailsmasthead}>
+    <BgImage image={bgImage} className={styles.detailsmasthead}>
     <Layout>
       <Seo title={title}/>
       <div className={styles.details}>

@@ -9,9 +9,11 @@
     margin: 0;
     padding: 30px 20px;
     display: grid;
-    grid-template-columns: 50% auto;
-    grid-template-rows: 160px auto;
+    grid-template-columns: 70% auto;
+    grid-template-rows: 100px auto;
     grid-template-areas: "header header" "main sidebar";
+    grid-gap: 50px;
+
 }
 
 header {    
@@ -26,6 +28,29 @@ main {
 
 aside{
     grid: sidebar;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 150px;
+    justify-content: center;  
+}
+
+.box {    
+    background: linear-gradient(
+        180.26deg,
+        rgba(0, 0, 0, 0.50) 30.01%,
+        rgba(255, 255, 255, 0.71) 30.89%
+      );
+    max-width: 70px;
+    max-height: 120px;
+    padding: 5px;
+    box-shadow: 0px 0px 8px 5px rgba(243, 243, 243, 0.1);
+    justify-content: center;  
+}
+
+.box p {
     text-align: center;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 0.8em;
 }
 

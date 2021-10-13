@@ -4,19 +4,77 @@ import * as styles from "../styles/about.module.css"
 import Layout from '../components/Layout'
 import Seo from "../components/Seo.js"
 import { BgImage } from "gbimage-bridge"
-import { getImage } from "gatsby-plugin-image"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 
 export default function Home({ data })  {
-  const pluginImage = getImage(data.background)
+  const bgImage = getImage(data.background)
+  const javaImg = getImage(data.java)
+  const javascriptImg = getImage(data.javascript)
+  const htmlImg = getImage(data.html)
+  const cssImg = getImage(data.css)
+  const gatsbyImg = getImage(data.gatsby)
+  const mysqlImg = getImage(data.mysql)
+  const githubImg = getImage(data.github)
+  const pythonImg = getImage(data.python)
+  const firebaseImg = getImage(data.firebase)
+  const androidImg = getImage(data.android)
+  const springbootImg = getImage(data.springboot)
+
+
     return (    
-    <BgImage image={pluginImage} className="masthead">
+    <BgImage image={bgImage} className="masthead">
         <Layout>
             <Seo title="About"/> 
             <div className={styles.test}>  
               <header>About Me </header>     
               <main><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem odio ex adipisci iusto illum est ad nihil, voluptas ab maiores tempore modi eum. Ipsa ullam molestias debitis perferendis quae commodi!</p></main>
-              <aside>SKILLS</aside>
+              <aside>
+                <div className={styles.box}> 
+                <p>Java</p>
+                <GatsbyImage image={javaImg} alt="Java" />
+                </div>                
+                <div className={styles.box}>
+                  <p>MySQL</p>
+                <GatsbyImage image={mysqlImg} alt="MySQL" />
+                </div>
+                <div className={styles.box}>
+                  <p>Spring Boot</p>
+                  <GatsbyImage image={springbootImg} alt="Spring Boot" />
+                </div>       
+                <div className={styles.box}>
+                  <p>Javascript</p>
+                <GatsbyImage image={javascriptImg} alt="Javascript" />
+                </div>
+                <div className={styles.box}>
+                 <p>HTML5</p>
+                <GatsbyImage image={htmlImg} alt="HTML" />
+                </div>
+                <div className={styles.box}>
+                 <p>CSS3/SCSS</p>
+                <GatsbyImage image={cssImg} alt="Css/Scss" />
+                </div>
+                <div className={styles.box}>
+                  <p>Gatsby</p>
+                  <GatsbyImage image={gatsbyImg} alt="Gatsby" />
+                </div>     
+                <div className={styles.box}>
+                  <p>Github</p>
+                  <GatsbyImage image={githubImg} alt="Github" />
+                </div>  
+                <div className={styles.box}>
+                  <p>Python</p>
+                  <GatsbyImage image={pythonImg} alt="Python" />
+                </div>  
+                <div className={styles.box}>
+                  <p>Firebase</p>
+                  <GatsbyImage image={firebaseImg} alt="Firebase" />
+                </div>      
+                <div className={styles.box}>
+                  <p>Android</p>
+                  <GatsbyImage image={androidImg} alt="Android Studio" />
+                </div>                 
+              </aside>
               </div>                 
                 {/* <div>
                     <h1>About page</h1>
@@ -50,6 +108,105 @@ export const query = graphql`
           formats: [AUTO, WEBP]        
         )
       }
-    }
+    }    
+    java: file(relativePath: { eq: "logos/java.png" }) {
+      childImageSharp {
+        gatsbyImageData(
+          layout: FULL_WIDTH
+          placeholder: BLURRED
+          formats: [AUTO, WEBP]        
+        )
+      }
+    }      
+    javascript: file(relativePath: { eq: "logos/javascript.png" }) {
+      childImageSharp {
+        gatsbyImageData(
+          layout: FULL_WIDTH
+          placeholder: BLURRED
+          formats: [AUTO, WEBP]        
+        )
+      }
+    }            
+    html: file(relativePath: { eq: "logos/html.png" }) {
+      childImageSharp {
+        gatsbyImageData(
+          layout: FULL_WIDTH
+          placeholder: BLURRED
+          formats: [AUTO, WEBP]        
+        )
+      }
+    }            
+    css: file(relativePath: { eq: "logos/css.png" }) {
+      childImageSharp {
+        gatsbyImageData(
+          layout: FULL_WIDTH
+          placeholder: BLURRED
+          formats: [AUTO, WEBP]        
+        )
+      }
+    }            
+    android: file(relativePath: { eq: "logos/android.png" }) {
+      childImageSharp {
+        gatsbyImageData(
+          layout: FULL_WIDTH
+          placeholder: BLURRED
+          formats: [AUTO, WEBP]        
+        )
+      }
+    }            
+    gatsby: file(relativePath: { eq: "logos/gatsby.png" }) {
+      childImageSharp {
+        gatsbyImageData(
+          layout: FULL_WIDTH
+          placeholder: BLURRED
+          formats: [AUTO, WEBP]        
+        )
+      }
+    }            
+    github: file(relativePath: { eq: "logos/github.png" }) {
+      childImageSharp {
+        gatsbyImageData(
+          layout: FULL_WIDTH
+          placeholder: BLURRED
+          formats: [AUTO, WEBP]        
+        )
+      }
+    }            
+    python: file(relativePath: { eq: "logos/python.png" }) {
+      childImageSharp {
+        gatsbyImageData(
+          layout: FULL_WIDTH
+          placeholder: BLURRED
+          formats: [AUTO, WEBP]        
+        )
+      }
+    }          
+    mysql: file(relativePath: { eq: "logos/mysql.png" }) {
+      childImageSharp {
+        gatsbyImageData(
+          layout: FULL_WIDTH
+          placeholder: BLURRED
+          formats: [AUTO, WEBP]        
+        )
+      }
+    }    
+    firebase: file(relativePath: { eq: "logos/firebase.png" }) {
+      childImageSharp {
+        gatsbyImageData(
+          layout: FULL_WIDTH
+          placeholder: BLURRED
+          formats: [AUTO, WEBP]        
+        )
+      }
+    }        
+    springboot: file(relativePath: { eq: "logos/springboot.png" }) {
+      childImageSharp {
+        gatsbyImageData(
+          layout: FULL_WIDTH
+          placeholder: BLURRED
+          formats: [AUTO, WEBP]        
+        )
+      }
+    }                            
   }
 `
