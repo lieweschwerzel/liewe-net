@@ -16,7 +16,13 @@ export default function Home({ data }) {
       <Layout>
         <Seo title="Home" />
         <section className={styles.header}>
-        <div className={styles.left}>
+        
+        <div className={styles.right}>
+            <h2>Design</h2>
+            <h3>Develop & Deploy</h3>
+            <p> Fullstack Software Developer based in Amsterdam</p>
+          </div>
+          <div className={styles.left}>
             <Link className={styles.btn} to="/projects">
               My portfolio projects
             </Link>
@@ -24,12 +30,6 @@ export default function Home({ data }) {
               More about me
               </Link>
           </div>
-        <div className={styles.right}>
-            <h2>Design</h2>
-            <h3>Develop & Deploy</h3>
-            <p> Fullstack Software Developer based in Amsterdam</p>
-          </div>
-          
           {/* <GatsbyImage image={banner} alt="Banner" />  */}
         </section>
       </Layout>
