@@ -1,8 +1,8 @@
 .contact {
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0.08) .01%,
-    rgba(49, 49, 49, 0.25) 0.89%
+    rgba(255, 255, 255, 0.08) 0.01%,
+    rgba(0, 0, 0, 0.55) 19.89%
 
   );
   height: 80vh;  
@@ -21,8 +21,8 @@
 .contact button {
   padding: 3px 4px;  
   font-size: 1em;
-  font-weight: 500;
-  background-color: rgba(255, 255, 255, 0.08) ;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.3) ;
 }
 
 label {

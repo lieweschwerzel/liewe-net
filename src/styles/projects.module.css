@@ -1,18 +1,21 @@
 .portfolio {
-  background: linear-gradient(
+  /* background: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.08) .01%,
-    rgba(0, 0, 0, 0.75) 50.89%
-  );
+    rgba(0, 0, 0, 0.15) 90.89%
+  ); */
   height: 80vh;  
   padding: 30px 20px;
   text-align: center;
+  text-shadow: 2px 1px 5px rgb(0, 0, 0), 10px 1px 10px rgb(0, 0, 0);
+
 }
 .portfolio > h2 {
   font-size: 3em;
   margin-top: 30px;
 }
 .portfolio > h3 {
+  margin-top: 15px;
   font-size: 2em;
   font-weight: 400;
 }
@@ -24,14 +27,21 @@
   margin: 80px 20px;
 }
 
+.projects a {
+  box-shadow: 0px 0px 20px 8px rgba(5, 5, 5, 0.3);
+}
+
 .projects h3 {
   text-align: center;
-  margin: 10px auto 0px;
-  font-weight: 500;
+  margin: 15px auto 0px;
 }
 .projects p {
   color: rgb(255, 255, 255);
   margin-top: 4px;
+}
+
+.projects a:hover  {
+  box-shadow: 0px 0px 20px 8px rgba(255, 253, 253, 0.3);
 }
 
 @media all and (max-width: 800px){
