@@ -22,6 +22,7 @@ header {
 }
 
 main {
+    font-family: "Oxanium";
     grid-area: main;
 }
 

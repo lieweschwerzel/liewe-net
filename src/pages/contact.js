@@ -69,15 +69,6 @@ export const query = graphql`
           formats: [AUTO, WEBP]          
         )
       }
-    }
-    banner: file(relativePath: { eq: "banner.png" }) {
-      childImageSharp {
-        gatsbyImageData(
-          layout: FULL_WIDTH
-          placeholder: BLURRED
-          formats: [AUTO, WEBP]        
-        )
-      }
-    }
+    }    
   }
 `

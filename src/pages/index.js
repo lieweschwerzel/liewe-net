@@ -8,9 +8,8 @@ import { BgImage } from "gbimage-bridge"
 
 export default function Home({ data }) {
   //get banner image from graphql query through data props
-  const banner = getImage(data.banner)
   const pluginImage = getImage(data.background)
-
+  
   return (
     <BgImage image={pluginImage} className="masthead">
       <Layout>
@@ -43,7 +42,7 @@ export const query = graphql`
       childImageSharp {
         gatsbyImageData(
           layout: FULL_WIDTH
-          placeholder: TRACED_SVG
+          placeholder: NONE
           formats: [AUTO, WEBP]          
         )
       }
