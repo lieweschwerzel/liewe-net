@@ -15,7 +15,7 @@ export default function Home({ data })  {
   const cssImg = getImage(data.css)
   const gatsbyImg = getImage(data.gatsby)
   const mysqlImg = getImage(data.mysql)
-  const githubImg = getImage(data.github)
+  const gitImg = getImage(data.git)
   const pythonImg = getImage(data.python)
   const firebaseImg = getImage(data.firebase)
   const androidImg = getImage(data.android)
@@ -59,8 +59,8 @@ export default function Home({ data })  {
                   <GatsbyImage image={gatsbyImg} alt="Gatsby" />
                 </div>     
                 <div className={styles.box}>
-                  <p>Github</p>
-                  <GatsbyImage image={githubImg} alt="Github" />
+                  <p>Git</p>
+                  <GatsbyImage image={gitImg} alt="Git" />
                 </div>  
                 <div className={styles.box}>
                   <p>Python</p>
@@ -163,7 +163,7 @@ export const query = graphql`
         )
       }
     }            
-    github: file(relativePath: { eq: "logos/github.png" }) {
+    git: file(relativePath: { eq: "logos/git.png" }) {
       childImageSharp {
         gatsbyImageData(
           layout: FULL_WIDTH
