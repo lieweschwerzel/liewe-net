@@ -13,6 +13,7 @@ export default function Projects({ data }) {
   const projects = data.projects.nodes
   const contact = data.contact.siteMetadata.contact
   const pluginImage = getImage(data.background)
+  const githubImage = getImage(data.github)
 
 
   return (
@@ -38,7 +39,9 @@ export default function Projects({ data }) {
             </Link>
           ))}
         </div>
-        <p>Like what you see? Email me at {contact}</p>
+          <Link to="https://github.com/lieweschwerzel" target="_blank" >
+            <GatsbyImage className={styles.gitimage} image={githubImage} alt="Githublink"></GatsbyImage>
+          </Link>
       </div>
     </Layout>
      </BgImage>
@@ -82,6 +85,15 @@ export const query = graphql`
         )
       }
     }
+    github: file(relativePath: { eq: "logos/github.png" }) {
+      childImageSharp {
+        gatsbyImageData(
+          layout: FULL_WIDTH
+          placeholder: BLURRED
+          formats: [AUTO, WEBP]        
+        )
+      }
+    }       
   }
 `
 
