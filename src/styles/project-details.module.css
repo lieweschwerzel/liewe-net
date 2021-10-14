@@ -18,15 +18,19 @@
     font-size: 2em;
     font-weight: 400;
     margin-top: 20px;
-    margin-bottom: 40px; 
+    margin-bottom: 20px; 
     margin-left: 20px;
 }
 
 .details a {
     color: rgb(65, 7, 7);
 }
-.details p, .details li, .details  h1,.details h3, .details h4, html {
+.details p, .details li, .details  h1,.details h3, .details h4 {
     color: black;
+}
+
+.details h4 {
+    margin-bottom: 1px;
 }
 
 .html {
