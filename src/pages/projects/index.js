@@ -39,9 +39,13 @@ export default function Projects({ data }) {
             </Link>
           ))}
         </div>
+        <div className={styles.gitlink}>
           <Link to="https://github.com/lieweschwerzel" target="_blank" >
+           <p>My Github repos</p> 
             <GatsbyImage className={styles.gitimage} image={githubImage} alt="Githublink"></GatsbyImage>
           </Link>
+        </div>
+          
       </div>
     </Layout>
      </BgImage>
@@ -80,7 +84,7 @@ export const query = graphql`
       childImageSharp {
         gatsbyImageData(
           layout: FULL_WIDTH
-          placeholder: NONE
+          placeholder: DOMINANT_COLOR
           formats: [AUTO, AVIF]          
         )
       }
