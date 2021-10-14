@@ -2,7 +2,6 @@ import React from "react"
 import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import * as styles from "../styles/contact.module.css"
-import Seo from "../components/Seo.js"
 import { BgImage } from "gbimage-bridge"
 import { getImage } from "gatsby-plugin-image"
 
