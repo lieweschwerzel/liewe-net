@@ -28,7 +28,8 @@ export default function Home({ data })  {
             <Seo title="About"/> 
             <div className={styles.test}>  
               <header>About Me </header>     
-              <main><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem odio ex adipisci iusto illum est ad nihil, voluptas ab maiores tempore modi eum. Ipsa ullam molestias debitis perferendis quae commodi!</p></main>
+              <main>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem odio ex adipisci iusto illum est ad nihil, voluptas ab maiores tempore modi eum. Ipsa ullam molestias debitis perferendis quae commodi!</p></main>
               <aside>
                 <div className={styles.box}> 
                 <p>Java</p>
