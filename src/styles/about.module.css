@@ -36,7 +36,7 @@ aside{
 
 .box {
     max-width: 70px;
-    max-height: 120px;
+    max-height: 100px;
     padding: 5px;
     background: linear-gradient(
         180.26deg,
@@ -44,6 +44,7 @@ aside{
         rgba(255, 255, 255, 0.71) 30.89%
       );
     box-shadow: 0px 0px 8px 5px rgba(243, 243, 243, 0.1);
+    
 }
 
 image{
