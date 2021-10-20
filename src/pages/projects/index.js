@@ -11,7 +11,7 @@ export default function Projects({ data }) {
     data.projects.nodes[0].frontmatter.thumb.childImageSharp.gatsbyImageData
  )
   const projects = data.projects.nodes
-  const contact = data.contact.siteMetadata.contact
+/*   const contact = data.contact.siteMetadata.contact */  
   const pluginImage = getImage(data.background)
   const githubImage = getImage(data.github)
 
