@@ -34,7 +34,6 @@ export default function Home({ data }) {
             </p>
           </main>
             <aside>
-              <div className={styles.boxcontainer}>
               <div className={styles.box}>
                 <p>Java</p>
                 <GatsbyImage image={javaImg} alt="Java" />
@@ -78,7 +77,6 @@ export default function Home({ data }) {
               <div className={styles.box}>
                 <p>Android</p>
                 <GatsbyImage image={androidImg} alt="Android Studio" />
-              </div>
               </div>
             </aside>
           </div>
