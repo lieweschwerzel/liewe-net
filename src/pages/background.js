@@ -3,11 +3,12 @@ import { graphql, useStaticQuery } from "gatsby"
 import { getImage } from "gatsby-plugin-image"
 import { BgImage } from "gbimage-bridge"
 
+
 const GbiBridged = () => {
   const { placeholderImage } = useStaticQuery(
     graphql`
       query {
-        placeholderImage: file(relativePath: { eq: "forest.jpg" }) {
+        placeholderImage: file(relativePath: { eq: "home.jpg" }) {
           childImageSharp {
             gatsbyImageData(
               width: 2000

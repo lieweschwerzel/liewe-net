@@ -7,15 +7,13 @@ import Seo from "../components/Seo.js"
 import { BgImage } from "gbimage-bridge"
 
 export default function Home({ data }) {
-  //get banner image from graphql query through data props
-  const pluginImage = getImage(data.background)
-  
+  //get image from graphql query through data props
+  const pluginImage = getImage(data.background)  
   return (
     <BgImage image={pluginImage} className="masthead">
       <Layout>
         <Seo title="Home" />
-        <section className={styles.header}>
-        
+        <section className={styles.header}>        
         <div className={styles.right}>
             <h2>Design</h2>
             <h3>Develop & Deploy</h3>
@@ -49,13 +47,3 @@ export const query = graphql`
     }    
   }
 `
-
-// banner: file(relativePath: { eq: "banner.png" }) {
-//   childImageSharp {
-//     gatsbyImageData(
-//       layout: FULL_WIDTH
-//       placeholder: BLURRED
-//       formats: [AUTO, WEBP]          
-//     )
-//   }
-// }
