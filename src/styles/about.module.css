@@ -21,7 +21,7 @@ header {
 }
 
 main {
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.69);
     grid-area: main;
     padding: 30px;
 }
@@ -32,11 +32,20 @@ main p {
     font-weight: 500;
 }
 
+main a {
+    color: black;
+    font-weight: 600;
+}
+
+main a:hover {
+    color: rgb(87, 43, 43);
+}
+
 aside {
     grid: sidebar;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 150px 150px 150px;
+    grid-template-rows: 130px 130px 130px;
     justify-content: center;  
 }
 
@@ -52,14 +61,11 @@ aside {
     box-shadow: 0px 0px 8px 5px rgba(243, 243, 243, 0.1);
 }
 
-image{
-    filter: drop-shadow(12, 4, 8, #575757);    
-}
-
 .box p {
     text-align: center;
-    margin-top: 8px;
-    font-weight: 400;
+    margin-top: 3px;
+    padding-bottom: 5px;
+    font-weight: 500;
     font-size: 0.8em;
 }
 
