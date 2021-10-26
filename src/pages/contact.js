@@ -31,7 +31,7 @@ export default function contact({ data }) {
 
             <div>
               <label>
-                Full Name <br />
+                Name <br />
                 <input type="text" name="first-name" />
               </label>
             </div>
