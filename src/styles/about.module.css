@@ -71,7 +71,7 @@ aside {
 
 @media all and (max-width: 800px) {
     .test{
-        padding: 20px 20px;
+        padding: 5px 20px;
         grid-template-columns: 190px auto;    
         grid-template-rows: 110px auto;
         grid-template-areas: "header header" "main main" "sidebar sidebar"; 
@@ -98,7 +98,8 @@ aside {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 120px 120px 120px;
         grid-gap: 10px;
-        
+        padding-top: 20px;
+        margin-left: 250px;
     }
   
 
