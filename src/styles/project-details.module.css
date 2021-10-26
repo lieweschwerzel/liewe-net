@@ -9,13 +9,18 @@
     color: black;
 }
 .details h2 {
-    font-size: 3.5em;
-    margin-top: 10px;
+    font-size: 3em;
+    margin-top: 20px;
     margin-left: 20px;
 }
 
+ul {
+    list-style-type: square;/* Remove bullets */
+
+}
+
 .details h3 {
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 20px; 
