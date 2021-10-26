@@ -29,6 +29,7 @@
 }
 
 .projects a {
+  border-radius: 10px;
   box-shadow: 0px 0px 20px 8px rgba(88, 88, 88, 0.15);
 }
 
@@ -44,11 +45,6 @@
 .projects p {
   color: rgb(255, 255, 255);
   margin-top: 4px;
-}
-
-.gatsby-image-wrapper {
-  height: 100px;
-  width: 50%;
 }
 
 .gitimage {
