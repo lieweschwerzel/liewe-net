@@ -21,12 +21,17 @@ Spring Boot handles the backend and MySQL stores the data. JsonWebTokens were us
 <li>Mockito</li>
 <li>Unittests</li>
 </ul>
+<br />
 
-https://github.com/lieweschwerzel/rent-share-backend
 #### Frontend:
 <ul>
 <li>Java (Android SDK)</li>
 </ul>
+<br />
+
+#### Git:   
+https://github.com/lieweschwerzel/rent-share-backend
+
 
 https://github.com/lieweschwerzel/rent-share-front
 <br />

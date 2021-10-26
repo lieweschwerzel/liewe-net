@@ -19,8 +19,8 @@ Made in Android Studio using:
 <li>LiveData</li>
 <li>Firebase authentication</li>
 </ul>
-<br />
-Github: http://www.git.com
+
+https://github.com/lieweschwerzel/rent-share-backend
 <br />
 <br />
 <br />
