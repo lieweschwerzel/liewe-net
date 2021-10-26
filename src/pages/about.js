@@ -28,7 +28,10 @@ export default function Home({ data }) {
           <header>About Me</header>
           <main>
             <p>
-                Passionate about building software and learning new technologies. Started programming in JAVA to create Android applications and REST api backend projects. 
+                Passionate about building software and learning new technologies. <br/> 
+                I started my programming journey with JAVA in 2017 creating Android applications with REST api backends (Spring Boot and MySQL). 
+                I enjoy working with the MERN stack (variations), NextJS and Gatsby (with GraphQL).<br/>
+                
                 Aspiring to become a fullstack developer.<br/>
                 Currently in my 4th year of HBO ICT Software Engineering (parttime) at the HVA in Amsterdam. 
             </p>

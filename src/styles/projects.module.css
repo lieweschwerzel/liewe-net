@@ -4,7 +4,7 @@
     rgba(255, 255, 255, 0.08) .01%,
     rgba(0, 0, 0, 0.15) 90.89%
   ); */
-  height: 80vh;  
+  height: 30vh;  
   padding: 30px 20px;
   text-align: center;
   text-shadow: 2px 1px 5px rgb(0, 0, 0), 10px 1px 10px rgb(0, 0, 0);
@@ -22,8 +22,8 @@
 
 .projects {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 80px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 50px;
   margin: 50px 20px;
   justify-content: center;
 }
@@ -42,6 +42,11 @@
 .projects p {
   color: rgb(255, 255, 255);
   margin-top: 4px;
+}
+
+.gatsby-image-wrapper {
+  height: 100px;
+  width: 50%;
 }
 
 .gitimage {

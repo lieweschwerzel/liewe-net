@@ -1,29 +1,35 @@
 .test{
-    background: linear-gradient(
-        180.26deg,
+    /* background: linear-gradient(
+        0.26deg,
         rgba(255, 255, 255, 0.08) .01%,
-        rgba(8, 5, 2, 0.71) 990.89%
-      );   
-    height: 80vh;    
+        rgba(8, 5, 2, 0.31) 9920.89%
+      );    */
+    height: 85vh;    
     margin: 0;
-    padding: 30px 20px;
     display: grid;
-    grid-template-columns: 65% auto;
-    grid-template-rows: 100px auto;
+    grid-template-columns: 70% auto;
+    grid-template-rows: 50px auto;
     grid-template-areas: "header header" "main sidebar";
     grid-gap: 50px;
 
 }
 
 header {    
-    font-size: 3em;
+    margin-top: 50px;
+    font-size: 2em;
     grid-area: header;
-    text-align: center;
 }
 
 main {
-    font-family: "Oxanium";
+    background: rgba(255, 255, 255, 0.6);
     grid-area: main;
+    padding: 30px;
+}
+
+main p {
+    color: black;
+    font-size: 1em;
+    font-weight: 500;
 }
 
 aside {
@@ -37,7 +43,7 @@ aside {
 .box {
     max-width: 70px;
     max-height: 100px;
-    padding: 5px;
+    padding: 10px;
     background: linear-gradient(
         180.26deg,
         rgba(0, 0, 0, 0.50) 30.01%,
