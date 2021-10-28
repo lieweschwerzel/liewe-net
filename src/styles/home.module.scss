@@ -52,8 +52,7 @@
 }
 
 .right {
-  padding-left: 100px;
-  width: 500px;
+ padding: 50px;
 }
 
 .left {
@@ -119,17 +118,16 @@
   -webkit-transform: scale(1);
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 768px) {
   .header {
     height: 100%;
     display: grid;
     justify-content: center;
     width: 100%;
-    grid-gap: 50px;
+    grid-gap: 130px;
     align-items: center;
     align-content: center;
     text-align: center;
-
     /* this is the same as grid-template-columns: 1fr 1fr 1fr 1fr; */
     grid-template-columns: repeat(1, 1fr);
     /* this is the same as grid-template-rows: 300px 300px; */
@@ -138,6 +136,7 @@
   }
 
   .right {
+    margin: 30px;
     justify-content: center;
   }
 

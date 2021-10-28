@@ -33,7 +33,8 @@ export default function Home({ data }) {
                 I enjoy working with the MERN stack (variations), pure HTML/CSS/JS and Gatsby (with GraphQL).<br/>                
                 Aspiring to become a fullstack developer.<br/>
                 Currently in my 4th year of HBO ICT Software Engineering (parttime) at the HVA in Amsterdam. 
-                <br/><br/><br/><br/>
+                <br/>
+                <br/>
                 Check out my <Link to="/projects">Portfolio</Link> or <a href="https://github.com/lieweschwerzel" target="_blank" >Github</a>
             </p>
           </main>
