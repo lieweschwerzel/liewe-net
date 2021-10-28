@@ -23,7 +23,7 @@ header {
 main {
     background: rgba(255, 255, 255, 0.69);
     grid-area: main;
-    padding: 30px;
+    padding: 25px 15px;
 }
 
 main p {
