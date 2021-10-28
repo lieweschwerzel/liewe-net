@@ -29,10 +29,10 @@ Spring Boot handles the backend and MySQL stores the data. JsonWebTokens were us
 </ul>
 <br />
 
-#### Git:   
+#### Github:   
+<br />
 https://github.com/lieweschwerzel/rent-share-backend
-
-
+<br />
 https://github.com/lieweschwerzel/rent-share-front
 <br />
 <br />

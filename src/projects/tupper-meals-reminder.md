@@ -23,6 +23,7 @@ Made in Android Studio using:
 <br /><br />
 
 # Github: 
+<br />
 https://github.com/lieweschwerzel/TupperApp
 <br />
 <br />

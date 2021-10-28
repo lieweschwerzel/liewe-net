@@ -19,4 +19,5 @@ Made in Android Studio with Java (Android SDK) and using Firebase as backend. Al
 <br/>
 
 # Github: 
+<br />
 https://github.com/lieweschwerzel/Work-Schedule-App

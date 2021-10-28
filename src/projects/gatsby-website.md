@@ -20,7 +20,7 @@ Personal portfolio website made with Gatsby and GraphQL. I chose Gatsby since it
 <br /><br />
 
 # Github: 
-
+<br />
 https://github.com/lieweschwerzel/liewe-net
 <br />
 <br />
