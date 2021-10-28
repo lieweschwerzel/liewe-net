@@ -12,7 +12,7 @@ Android Reminder app for leftover "Tupper Meals" in your fridge and/or freezer t
 Android App made in Java with Android Studio (Android SDK). All userdata including pictures stored on Firebase servers. Login with Google Account or custom User. 
 <br /><br />
 
-# Stack 
+#### Stack 
 Made in Android Studio using: 
 <ul>
 <li>Java (Android SDK)(</li>
@@ -22,8 +22,8 @@ Made in Android Studio using:
 </ul>
 <br /><br />
 
-# Github: 
-<br />
+#### Github: 
+
 https://github.com/lieweschwerzel/TupperApp
 <br />
 <br />

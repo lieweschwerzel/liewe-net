@@ -11,13 +11,18 @@ Android App to organize and interchange schedules between colleagues at the work
 <br/>
 Made in Android Studio with Java (Android SDK) and using Firebase as backend. All userdata stored on Firebae servers. Secure login through Google account or through custom registration with email as user.
 
-### Stack
+#### Stack
 <ul>
 <li>Java (Android SDK)</li>
 <li>Firebase</li>
 </ul>
 <br/>
 
-# Github: 
-<br />
+#### Github: 
+
 https://github.com/lieweschwerzel/Work-Schedule-App
+<br />
+<br />
+<br />
+<br />
+<br />

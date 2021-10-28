@@ -10,7 +10,7 @@ featuredImg: ../images/featured/portfolio-banner.png
 Personal portfolio website made with Gatsby and GraphQL. I chose Gatsby since it loads quick (static site generated) and it's optimized for SEO. Content is delivered by MD files for my projects pages. Images are auto optimized and accessible through GraphQL. Deployed on Netlify through Github. 
 <br /><br />
 
-# Stack 
+#### Stack 
 <br /> 
 <ul>
 <li>Gatsby 3</li>
@@ -19,8 +19,8 @@ Personal portfolio website made with Gatsby and GraphQL. I chose Gatsby since it
 </ul>
 <br /><br />
 
-# Github: 
-<br />
+#### Github: 
+
 https://github.com/lieweschwerzel/liewe-net
 <br />
 <br />
