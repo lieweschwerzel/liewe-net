@@ -92,13 +92,11 @@ export default function Home({ data }) {
 
 export const query = graphql`
   query AboutBackground {
-    background: file(relativePath: { eq: "about.jpg" }) {
+    background: file(relativePath: {eq: "about.jpg"}) {
       childImageSharp {
         gatsbyImageData(
           layout: FULL_WIDTH
-          breakpoints:	[2560]
-          placeholder: NONE
-          formats: [AUTO, WEBP]
+          breakpoints: [750, 1080, 1366, 1920, 2560]
         )
       }
     }

@@ -2,7 +2,7 @@
 title: Portfolio    
 stack: Gatsby, GraphQL
 slug: portfolio-website
-date: 2021-05-06T00:00:00+00:00
+date: 2020-01-06T00:00:00+00:00
 thumb: ../images/thumbs/portfolio.png
 featuredImg: ../images/featured/portfolio-banner.png
 ---
