@@ -11,7 +11,8 @@ const GbiBridged = () => {
         placeholderImage: file(relativePath: { eq: "home.jpg" }) {
           childImageSharp {
             gatsbyImageData(
-              width: 2560
+              width: 3600
+              layout: FIXED
               placeholder: BLURRED
               formats: [AUTO, WEBP, AVIF]
             )
