@@ -96,7 +96,7 @@ export const query = graphql`
       childImageSharp {
         gatsbyImageData(
           layout: FULL_WIDTH
-          breakpoints:	[3560]
+          breakpoints:	[2560]
           placeholder: NONE
           formats: [AUTO, WEBP]
         )
