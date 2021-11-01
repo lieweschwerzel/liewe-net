@@ -15,7 +15,7 @@
 }
 
 ul {
-    list-style-type: square;/* Remove bullets */
+    list-style-type: none;/* Remove bullets */
 
 }
 
@@ -32,6 +32,8 @@ ul {
 }
 .details p, .details li, .details  h1,.details h3, .details h4 {
     color: black;
+    font-family: 'Roboto';
+
 }
 
 .details h4 {

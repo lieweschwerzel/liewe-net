@@ -21,7 +21,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  animation: reveal 3000ms ease-in-out forwards 2000ms,
+  animation: reveal 2000ms ease-in-out forwards 10ms,
     glow 4000ms linear infinite 2000ms;
 
   @keyframes reveal {

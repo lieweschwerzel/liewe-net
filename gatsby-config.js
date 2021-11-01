@@ -12,9 +12,9 @@ module.exports = {
     title: `Liewe.net`,
     description: `Fullstack developer portfolio`,
     copyright: `This website is copyrighted 2021`,
-    keywords: `liewe, Fullstack, Java developer, Javascript, React, Amsterdam`,
-    contact: `liewe@liewe.net`,
-    author: `@liewes`
+    keywords: `Liewe Schwerzel, Schwerzel, Fullstack, Java developer, Javascript, React, Amsterdam`,
+    contact: `lieweschwerzel@gmail.com`,
+    author: `@LieweSchwerzel`
   },
   plugins: [
     {

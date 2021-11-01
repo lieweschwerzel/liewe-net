@@ -23,10 +23,11 @@ header {
 main {
     background: rgba(255, 255, 255, 0.69);
     grid-area: main;
-    padding: 25px 15px;
+    padding: 20px 15px;
 }
 
 main p {
+    font-family: Roboto;
     color: black;
     font-size: 1em;
     font-weight: 500;
