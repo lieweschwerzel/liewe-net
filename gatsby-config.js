@@ -9,7 +9,7 @@ module.exports = {
 
   plugins: [],
   siteMetadata: {
-    title: `Liewe.net`,
+    title: `Liewe Schwerzel`,
     description: `Fullstack developer portfolio`,
     copyright: `This website is copyrighted 2021`,
     keywords: `Liewe Schwerzel, Schwerzel, Fullstack, Java developer, Javascript, React, Amsterdam`,

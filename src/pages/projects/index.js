@@ -40,7 +40,7 @@ export default function Projects({ data }) {
           ))}
         </div>
         <div className={styles.gitlink}>
-        <a href="https://github.com/lieweschwerzel" target="_blank">
+        <a href="https://github.com/lieweschwerzel" target="_blank" rel="noreferrer">
           <p>Github repositories</p> 
           <GatsbyImage className={styles.gitimage} image={githubImage} alt="Githublink"></GatsbyImage>
         </a>

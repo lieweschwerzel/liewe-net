@@ -29,13 +29,13 @@ export default function Home({ data }) {
           <main>
             <p>
                 Passionate about building software and learning new technologies. <br/> 
-                I started my programming journey with JAVA in 2017 creating Android applications with REST api backend (Spring Boot, MySQL). 
+                I started my programming journey with JAVA in 2017 creating Android applications with a REST api backend (Spring Boot, MySQL). 
                 I enjoy working with the MERN stack (variations), pure HTML/CSS/JS and Gatsby (with GraphQL).<br/>                
                 Aspiring to become a fullstack developer.<br/>
                 Currently in my 4th year of HBO ICT Software Engineering (parttime) at the HVA in Amsterdam. 
                 <br/>
                 <br/>
-                Check out my <Link to="/projects">Portfolio</Link> or <a href="https://github.com/lieweschwerzel" target="_blank" >Github</a>
+                Check out my <Link to="/projects">Portfolio</Link> or <a href="https://github.com/lieweschwerzel" target="_blank"  rel="noreferrer">Github</a>
             </p>
           </main>
             <aside>

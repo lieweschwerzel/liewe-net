@@ -8,7 +8,7 @@ featuredImg: ../images/featured/food-banner.png
 ---
 
 Android Reminder app for leftover "Tupper Meals" in your fridge and/or freezer to conveniently track expiry dates of the meals.
-<br/>
+<br/><br />
 Android App made in Java with Android Studio (Android SDK). All userdata including pictures stored on Firebase servers. Login with Google Account or custom User. 
 <br /><br />
 

@@ -7,7 +7,7 @@ thumb: ../images/thumbs/skate.png
 featuredImg: ../images/featured/skate-banner.png
 ---
  
-Android App with the purpose of renting or sharing your personal belongings on a social platform including an auction-style listing.<br/> 
+Android App with the purpose of renting or sharing your personal belongings on a social platform including an auction-style listing.<br/> <br />
 Spring Boot handles the backend and MySQL stores the data. JsonWebTokens were used to secure the api endpoints. Mockito for testing, aswell as Unit tests. The frontend was made in JAVA with Android Studio (Android SDK) to run as an APK on Android devices.
 <br />
 <br />
