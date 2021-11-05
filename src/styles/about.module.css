@@ -21,7 +21,7 @@ header {
 }
 
 main {
-    background: rgba(255, 255, 255, 0.69);
+    background: rgba(255, 255, 255, 0.9);
     grid-area: main;
     padding: 20px 15px;
 }
