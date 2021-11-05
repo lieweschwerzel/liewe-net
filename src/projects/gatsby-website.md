@@ -1,6 +1,6 @@
 ---
 title: Portfolio    
-stack: Gatsby, GraphQL
+stack: Gatsby, HTML, CSS, GraphQL
 slug: portfolio-website
 date: 2020-01-06T00:00:00+00:00
 thumb: ../images/thumbs/portfolio.png
