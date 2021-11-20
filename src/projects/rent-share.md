@@ -8,7 +8,7 @@ featuredImg: ../images/featured/skate-banner.png
 ---
  
 Android App for renting or sharing your personal belongings on a social platform including an auction-style listing.<br/> <br />
-Spring Boot handles the backend and MySQL stores the data. JsonWebTokens to secure the api endpoints to ensure correct authentication and authorization. Mockito for testing, aswell as Unit tests. The frontend was made in JAVA with Android Studio (Android SDK) to run as an APK on Android devices.
+Spring Boot handles the backend and MySQL stores the data. JsonWebTokens to secure the api endpoints to ensure correct authentication and authorization. Mockito and Unit tests. The frontend was made in Android Studio (Android SDK) with Java and XML. 
 <br />
 <br />
 
