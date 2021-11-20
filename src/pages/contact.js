@@ -32,7 +32,7 @@ export default function contact({ data }) {
             <div>
               <label>
                 Name <br />
-                <input type="text" name="first-name" />
+                <input type="text" name="first-name" required />
               </label>
             </div>
 
@@ -41,14 +41,14 @@ export default function contact({ data }) {
                 <br />
                 Email <br/>
               </label>
-              <input id="email" type="email" name="email" />
+              <input id="email" type="email" name="email" required/>
             </div>
 
             <div>
               <label>
                 <br />
                 Message <br />
-                <textarea name="comments" cols="60" rows="10"></textarea>
+                <textarea name="comments" cols="60" rows="10" required></textarea>
               </label>
             </div>
             <br />
