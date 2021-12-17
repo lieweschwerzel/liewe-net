@@ -30,7 +30,7 @@ LIVE site: https://price-tracker-frontend.herokuapp.com/
 
 #### Github:   
 
-https://github.com/lieweschwerzel/price-tracker-back
+https://github.com/lieweschwerzel/price-tracker-backend
 
 https://github.com/lieweschwerzel/price-tracker-front
 <br />
