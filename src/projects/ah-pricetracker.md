@@ -1,6 +1,6 @@
 ---
 title: AH Price Tracker
-stack: Python (FASTapi), MongoDB, React
+stack: Python (FASTapi), React, MongoDB
 slug: ah-pricetracker
 date: 2021-12-01T00:00:00+00:00
 thumb: ../images/thumbs/ah-pricetracker.png
