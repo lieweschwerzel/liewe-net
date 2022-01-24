@@ -42,6 +42,14 @@ export default function Home({ data }) {
               <div className={styles.box}>
                 <p>Java</p>
                 <GatsbyImage image={javaImg} alt="Java" />
+              </div> 
+              <div className={styles.box}>
+                <p>Javascript</p>
+                <GatsbyImage image={javascriptImg} alt="Javascript" />
+              </div>
+              <div className={styles.box}>
+                <p>Python</p>
+                <GatsbyImage image={pythonImg} alt="Python" />
               </div>
               <div className={styles.box}>
                 <p>MySQL</p>
@@ -50,18 +58,14 @@ export default function Home({ data }) {
               <div className={styles.box}>
                 <p>Spring Boot</p>
                 <GatsbyImage image={springbootImg} alt="Spring Boot" />
-              </div>
-              <div className={styles.box}>
-                <p>Javascript</p>
-                <GatsbyImage image={javascriptImg} alt="Javascript" />
-              </div>
+              </div>             
               <div className={styles.box}>
                 <p>HTML5</p>
                 <GatsbyImage image={htmlImg} alt="HTML" />
               </div>
               <div className={styles.box}>
                 <p>CSS3/SCSS</p>
-                <GatsbyImage image={cssImg} alt="Css/Scss" />
+                <GatsbyImage image={cssImg} alt="CSS/Scss" />
               </div>
               <div className={styles.box}>
                 <p>Gatsby</p>
@@ -70,11 +74,7 @@ export default function Home({ data }) {
               <div className={styles.box}>
                 <p>Git</p>
                 <GatsbyImage image={gitImg} alt="Git" />
-              </div>
-              <div className={styles.box}>
-                <p>Python</p>
-                <GatsbyImage image={pythonImg} alt="Python" />
-              </div>
+              </div>            
               <div className={styles.box}>
                 <p>Firebase</p>
                 <GatsbyImage image={firebaseImg} alt="Firebase" />
