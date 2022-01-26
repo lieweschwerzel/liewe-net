@@ -13,17 +13,14 @@
 
 html,
 body {
-  background: black;
-  
+  background: black;  
 }
 
 .masthead {
-  /* background-repeat: no-repeat; */
-  
+  /* background-repeat: no-repeat; */  
   height: 100vh;
   display: flex;
- /*  opacity: 1 !important; */
-  
+ /*  opacity: 1 !important; */  
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
