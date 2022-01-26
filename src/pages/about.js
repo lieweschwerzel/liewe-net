@@ -13,6 +13,7 @@ export default function Home({ data }) {
   const htmlImg = getImage(data.html)
   const cssImg = getImage(data.css)
   const gatsbyImg = getImage(data.gatsby)
+  const reactImg = getImage(data.react)
   const mysqlImg = getImage(data.mysql)
   const gitImg = getImage(data.git)
   const pythonImg = getImage(data.python)
@@ -66,6 +67,10 @@ export default function Home({ data }) {
               <div className={styles.box}>
                 <p>CSS3/SCSS</p>
                 <GatsbyImage image={cssImg} alt="CSS/Scss" />
+              </div>
+              <div className={styles.box}>
+                <p>React</p>
+                <GatsbyImage image={reactImg} alt="React" />
               </div>
               <div className={styles.box}>
                 <p>Gatsby</p>
@@ -182,6 +187,15 @@ export const query = graphql`
       }
     }
     mysql: file(relativePath: { eq: "logos/mysql.png" }) {
+      childImageSharp {
+        gatsbyImageData(
+          layout: FULL_WIDTH
+          placeholder: BLURRED
+          formats: [AUTO, WEBP]
+        )
+      }
+    }
+    react: file(relativePath: { eq: "logos/react.png" }) {
       childImageSharp {
         gatsbyImageData(
           layout: FULL_WIDTH
