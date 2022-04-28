@@ -1,6 +1,6 @@
 ---
 title: Work Schedule Organizer 
-stack: Java & Firebase
+stack: Android: Java & Firebase
 slug: work-schedule-organizer
 date: 2021-01-05T00:00:00+00:00
 thumb: ../images/thumbs/coffee.png
