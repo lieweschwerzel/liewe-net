@@ -1,6 +1,6 @@
 ---
 title: Tupper Meals Reminder 
-stack: Java & Firebase 
+stack: Android: Java & Firebase 
 slug: tupper-meals-reminder
 date: 2021-01-06T00:00:00+00:00
 thumb: ../images/thumbs/food.png
