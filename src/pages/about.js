@@ -31,7 +31,7 @@ export default function Home({ data }) {
             <p>
                 Passionate about building software and learning new technologies. <br/> 
                 I started my programming journey with Java in 2017 creating Android applications with REST api backends (Spring Boot, MySQL/Firebase). 
-                I enjoy working with React and MongoDB (MERN stack, FARM stack and variations) either using JS or Python (FastAPI), HTML/CSS and Gatsby (with GraphQL).<br/>                
+                I also enjoy working with Javascript, Python and the Reacts stacks (MERN, FARM and variations), HTML/CSS and Gatsby (with GraphQL).<br/>                
                 <br/>
                 Currently in my 4th year of HBO ICT Software Engineering (parttime) at the HVA in Amsterdam. 
                 <br/>
