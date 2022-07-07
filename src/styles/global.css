@@ -20,7 +20,7 @@ body {
 .masthead {
   /* background-repeat: no-repeat; */  
   height: 100vh;
-  
+  display: flex;
  /*  opacity: 1 !important; */  
   background-size: cover;
   background-attachment: fixed;
