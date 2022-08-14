@@ -105,9 +105,15 @@ footer p {
   }
 
   nav {
-    
+    visibility: hidden;
 
   }
+  nav .navlogo{
+    display: grid;
+
+    visibility: visible;
+    margin: 20px;
+    }
 }
 
 @media all and (min-width: 2560px) {
