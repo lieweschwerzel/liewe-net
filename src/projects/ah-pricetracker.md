@@ -30,9 +30,9 @@ LIVE site: https://ahbonus.herokuapp.com/
 
 #### Github:   
 
-https://github.com/lieweschwerzel/price-tracker-backend
+https://github.com/lieweschwerzel/ah_ps_back_spring_boot
 
-https://github.com/lieweschwerzel/price-tracker-front
+https://github.com/lieweschwerzel/ah-ps_front
 <br />
 <br />
 
