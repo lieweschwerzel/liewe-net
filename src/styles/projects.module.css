@@ -24,7 +24,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 50px;
-  margin: 50px 20px;
+  margin: 90px 20px;
   justify-content: center;
 }
 
@@ -45,6 +45,7 @@
 .projects p {
   color: rgb(255, 255, 255);
   margin-top: 4px;
+  margin-bottom: 15px;
 }
 
 .gitimage {
