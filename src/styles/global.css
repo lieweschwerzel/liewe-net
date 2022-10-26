@@ -13,8 +13,7 @@
 
 html,
 body {
-  background: black; 
-   
+  background: black;  
 }
 
 .masthead {
@@ -28,8 +27,8 @@ body {
   background-position: center;
   background: linear-gradient(
     180deg,
-    rgba(10, 10, 10, 0.18) .001%,
-    rgba(66, 48, 20, 0.11) 0.89%
+    rgba(10, 10, 10, 0.) .001%,
+    rgba(66, 48, 20, 0.) 0.89%
   )
 }
 
@@ -100,6 +99,22 @@ footer p {
 }
 
 @media all and (max-width: 768px) {
+  .masthead {
+    /* background-repeat: no-repeat; */  
+    height: 100vh;
+    display: flex;
+   /*  opacity: 1 !important; */  
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: linear-gradient(
+      180deg,
+      rgba(10, 10, 10, 0.18) .001%,
+      rgba(66, 48, 20, 0.11) 0.89%
+    )
+  }
+  
   footer {
     visibility: hidden;
   }

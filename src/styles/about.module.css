@@ -1,20 +1,20 @@
-.test{
+.test {
     /* background: linear-gradient(
         0.26deg,
         rgba(255, 255, 255, 0.08) .01%,
         rgba(8, 5, 2, 0.31) 9920.89%
       );    */
-    height: 85vh;    
+    height: 85vh;
     margin: 0;
     display: grid;
-    grid-template-columns: 70% auto;
+    grid-template-columns: 70vh auto;
     grid-template-rows: 50px auto;
-    grid-template-areas: "header header" "main sidebar";
+    grid-template-areas: "header header""main aside";
     grid-gap: 50px;
 
 }
 
-header {    
+header {
     margin-top: 50px;
     font-size: 2em;
     grid-area: header;
@@ -27,7 +27,6 @@ main {
     border-radius: 12px;
     border: 1px solid rgba(209, 213, 219, 0.3);
     grid-area: main;
-    padding: 20px 15px;
 }
 
 main p {
@@ -47,22 +46,21 @@ main a:hover {
 }
 
 aside {
-    grid: sidebar;
+    grid: aside;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 130px 130px 130px;
-    justify-content: center;  
+    justify-content: center;
+    padding: 0px;
 }
 
 .box {
     max-width: 70px;
     max-height: 100px;
     padding: 10px;
-    background: linear-gradient(
-        180.26deg,
-        rgba(0, 0, 0, 0.50) 30.01%,
-        rgba(255, 255, 255, 0.76) 30.89%
-      );
+    background: linear-gradient(180.26deg,
+            rgba(0, 0, 0, 0.50) 30.01%,
+            rgba(255, 255, 255, 0.76) 30.89%);
     box-shadow: 0px 0px 8px 5px rgba(243, 243, 243, 0.1);
 }
 
@@ -74,14 +72,20 @@ aside {
     font-size: 0.8em;
 }
 
+.boxcontainer {
+    margin-left: 0;
+}
+
 @media all and (max-width: 800px) {
-    .test{
+
+    .test {
+        height: 85vh;
+        border-style: dashed;
         padding: 5px 20px;
-        grid-template-columns: 190px auto;    
-        grid-template-rows: 110px auto;
-        grid-template-areas: "header header" "main main" "sidebar sidebar"; 
+        grid-template-columns: 100vw auto;
+        grid-template-rows: 0;
+        grid-template-areas: "header header""main main""aside aside";
         grid-gap: 10px;
-        align-items: center;
         justify-items: center;
     }
 
@@ -95,19 +99,38 @@ aside {
         font-size: 0.7em;
     }
 
-    .boxcontainer {
-        margin-left: auto;
+
+
+    header {
+        margin-top: 0px;
+        height: 10vh;
+    }
+    
+    main {
+        width: 85vw;
+        height: 60vh;
+        margin-top: 30px;
+        margin-left: -5px;
     }
 
-    aside{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 120px 120px 120px 120px;
-        grid-gap: 10px;
-        padding-top: 20px;
-        margin-left: 90px;
-        
+    aside {
+        width: 80vw;
+        border-style: dashed;
+        display: grid;
+        flex-direction: row;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        /* width: 30px; */
+        grid-gap: 2px;
+        padding-top: 5px;
+        /* margin-left: -30px; */
+        align-items: stretch;
+        height: 30vh;
+
+
     }
-  
+
+    
+
 
 
 }
