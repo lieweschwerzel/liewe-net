@@ -10,12 +10,9 @@ const GbiBridged = () => {
       query {
         placeholderImage: file(relativePath: { eq: "home.jpg" }) {
           childImageSharp {
-            gatsbyImageData(
-              width: 3600
-              layout: FIXED
-              placeholder: BLURRED
-              formats: [AUTO, WEBP, AVIF]
-            )
+            fluid(quality: 100, maxWidth: 3840) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
           }
         }
       }
