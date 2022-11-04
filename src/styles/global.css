@@ -13,20 +13,23 @@
 
 html,
 body {
-  background: black;
+  background: black;  
 }
 
 .masthead {
-  /* background-repeat: no-repeat; */
+  /* background-repeat: no-repeat; */  
   height: 100vh;
   display: flex;
-  /*  opacity: 1 !important; */
-  background-position: bottom center;
-  background-repeat: repeat-y;
+ /*  opacity: 1 !important; */  
   background-size: cover;
-  background: linear-gradient(180deg,
-      rgba(10, 10, 10, 0.) .001%,
-      rgba(66, 48, 20, 0.) 0.89%)
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: linear-gradient(
+    180deg,
+    rgba(10, 10, 10, 0.) .001%,
+    rgba(66, 48, 20, 0.) 0.89%
+  )
 }
 
 p {
@@ -38,22 +41,19 @@ p {
 .layout {
   width: 1200px;
   margin: 5px auto;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.5rem;   
 }
-
 nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
   /* margin: 40px auto; */
 }
-
 nav .links {
   font-size: 1.2em;
   display: inline-block;
   text-align: right;
   margin-top: 15px;
 }
-
 nav a {
   color: white;
   display: inline-block;
@@ -62,11 +62,9 @@ nav a {
   padding-bottom: 8px;
   border-bottom: 3px solid transparent;
 }
-
 nav a:hover {
   border-color: white;
 }
-
 nav .navlogo {
   border-bottom: 0px;
   margin-top: 10px;
@@ -80,7 +78,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  text-align: center;
+  text-align: center; 
 }
 
 footer p {
@@ -102,19 +100,21 @@ footer p {
 
 @media all and (max-width: 768px) {
   .masthead {
-    /* background-repeat: no-repeat; */
+    /* background-repeat: no-repeat; */  
     height: 100vh;
     display: flex;
-    /*  opacity: 1 !important; */
+   /*  opacity: 1 !important; */  
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
-    background: linear-gradient(180deg,
-        rgba(10, 10, 10, 0.18) .001%,
-        rgba(66, 48, 20, 0.11) 0.89%)
+    background: linear-gradient(
+      180deg,
+      rgba(10, 10, 10, 0.18) .001%,
+      rgba(66, 48, 20, 0.11) 0.89%
+    )
   }
-
+  
   footer {
     visibility: hidden;
   }
@@ -123,11 +123,12 @@ footer p {
     visibility: hidden;
 
   }
-
-  nav .navlogo {
+  nav .navlogo{
     visibility: visible;
     margin: 20px;
-  }
+    }
 }
 
-@media all and (min-width: 2560px) {}
+@media all and (min-width: 2560px) {
+ 
+}
