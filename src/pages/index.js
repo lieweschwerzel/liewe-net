@@ -11,7 +11,7 @@ export default function Home({ data }) {
   return (
       <Layout>
         <Seo title="Home" />
-        <video autoPlay muted loop>
+        <video autoPlay>
             <source src="swiss.mp4" type="video/mp4"/>
         </video>
         <section className={styles.header}>        
