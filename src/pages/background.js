@@ -25,7 +25,7 @@ const GbiBridged = () => {
 
   return (
    <video controls>
-      <source src={swiss} type="video/mp4" />
+      <source src="swiss.mp4" type="video/mp4" />
     </video>
   )
 }
