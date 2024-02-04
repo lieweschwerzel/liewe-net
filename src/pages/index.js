@@ -7,12 +7,13 @@ import Seo from "../components/Seo.js"
 import { BgImage } from "gbimage-bridge"
 
 export default function Home({ data }) {
-  <video autoplay muted loop>
-    <source src="swiss.mp4" type="video/mp4"/>
-  </video>
+ 
   return (
       <Layout>
         <Seo title="Home" />
+        <video autoplay muted loop>
+            <source src="swiss.mp4" type="video/mp4"/>
+        </video>
         <section className={styles.header}>        
         <div className={styles.right}>
             <h2>Design</h2>
