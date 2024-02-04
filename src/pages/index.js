@@ -7,10 +7,10 @@ import Seo from "../components/Seo.js"
 import { BgImage } from "gbimage-bridge"
 
 export default function Home({ data }) {
-  //get image from graphql query through data props
-  const pluginImage = getImage(data.background)  
+  <video autoplay muted loop>
+    <source src="swiss.mp4" type="video/mp4"/>
+  </video>
   return (
-    <BgImage image={pluginImage} className="masthead">
       <Layout>
         <Seo title="Home" />
         <section className={styles.header}>        
@@ -30,7 +30,6 @@ export default function Home({ data }) {
           {/* <GatsbyImage image={banner} alt="Banner" />  */}
         </section>
       </Layout>
-    </BgImage>
   )
 }
 
