@@ -2,7 +2,7 @@ import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import { getImage } from "gatsby-plugin-image"
 import { BgImage } from "gbimage-bridge"
-import swiss from "../../assets/swiss.mp4"
+import swiss from "swiss.mp4"
 
 const GbiBridged = () => {
   const { placeholderImage } = useStaticQuery(
